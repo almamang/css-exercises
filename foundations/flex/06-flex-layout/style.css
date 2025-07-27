@@ -24,3 +24,53 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Solutions */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer {
+  background-color: gainsboro;
+}
+
+button {
+  padding: 5px 15px;
+  margin: 5px;
+}
